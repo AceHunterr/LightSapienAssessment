@@ -1,0 +1,32 @@
+.active {
+    background-color: #007bff; 
+    color: white; 
+  }
+  button {
+    margin-bottom: 2px;
+    padding: 5px 4px;
+    border: 1px solid black;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s; 
+  }
+  
+  button:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  button.active {
+    border: 4px solid orange;
+    background-color: #004c4e; 
+  }
+  
+  .book-list-container {
+    width: 25%; 
+    height: 0%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2); 
+    background-color: #fff; 
+    border-radius: 8px; 
+  }
+  
